@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![CivicUX Logo](https://i.imgur.com/ZVHouvW.png)
+![CivicUX Logo](https://i.imgur.com/NMBGegT.jpeg)
 
 **Plataforma de Engajamento Cívico com Gamificação**
 
@@ -693,8 +693,8 @@ Contribuições são bem-vindas! Para contribuir:
 
 ## 📞 Suporte
 
-- **Issues**: [GitHub Issues](https://github.com/seu-usuario/cidadao-auditor/issues)
-- **Discussões**: [GitHub Discussions](https://github.com/seu-usuario/cidadao-auditor/discussions)
+- **Issues**: [GitHub Issues](https://github.com/brunochucky/civicux/issues)
+- **Discussões**: [GitHub Discussions](https://github.com/brunochucky/civicux/discussions)
 - **Email**: hello@ruptureculture.com
 
 ---

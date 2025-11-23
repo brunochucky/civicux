@@ -1,0 +1,119 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String            @id @default(uuid())
+  name             String
+  email            String            @unique
+  password         String            // Hashed password
+  avatar           String?
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  
+  // Gamification Stats
+  civiCoins        Int               @default(150)
+  xp               Int               @default(350)
+  level            Int               @default(3)
+  nextLevelXp      Int               @default(1000)
+  reportsSubmitted Int               @default(0)
+  votesCast        Int               @default(0)
+
+  // Relations
+  reports          Report[]
+  votes            Vote[]
+  propositionVotes PropositionVote[]
+  achievements     UserAchievement[]
+
+  // Profile Details
+  address             String?
+  education           String?
+  profession          String?
+  age                 Int?
+  whatsapp            String?
+  receiveUpdates      Boolean           @default(false)
+  notificationChannel String?           // TELEGRAM, WHATSAPP
+  interests           Json?             // Array of strings
+  subscribedThemes    Json?             // Array of strings
+}
+
+model PropositionVote {
+  id            String   @id @default(uuid())
+  propositionId String   // External ID from Câmara API
+  voteType      String   // APPROVE, REJECT
+  comment       String   @db.Text
+  createdAt     DateTime @default(now())
+
+  // Relations
+  userId        String
+  user          User     @relation(fields: [userId], references: [id])
+
+  @@unique([userId, propositionId]) // User can only vote once per proposition
+}
+
+model Report {
+  id          String   @id @default(uuid())
+  title       String
+  description String   @db.Text
+  severity    Int
+  department  String
+  imageUrl    String?
+  status      String   @default("pending") // pending, validated, rejected, resolved
+  
+  // Location (stored as JSON or separate fields)
+  latitude    Float
+  longitude   Float
+  address     String?  // Human-readable address
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  authorId    String
+  author      User     @relation(fields: [authorId], references: [id])
+  votes       Vote[]
+}
+
+model Vote {
+  id        String   @id @default(uuid())
+  type      String   // valid, fake
+  comment   String?  @db.Text // User's justification for the vote (optional for backwards compatibility)
+  createdAt DateTime @default(now())
+
+  // Relations
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  reportId  String
+  report    Report   @relation(fields: [reportId], references: [id])
+
+  @@unique([userId, reportId]) // User can only vote once per report
+}
+
+
+model Achievement {
+  id          String   @id
+  title       String
+  description String
+  icon        String
+  
+  // Relations
+  users       UserAchievement[]
+}
+
+model UserAchievement {
+  id            String      @id @default(uuid())
+  unlockedAt    DateTime    @default(now())
+
+  // Relations
+  userId        String
+  user          User        @relation(fields: [userId], references: [id])
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id])
+
+  @@unique([userId, achievementId])
+}

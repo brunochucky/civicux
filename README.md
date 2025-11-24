@@ -355,6 +355,58 @@ Acompanhamento e votação em proposições legislativas da Câmara dos Deputado
 - Exibição de tramitação e status atual
 - Histórico de votos do usuário
 
+#### 📄 Página Interna da Proposição
+
+![Print da Página Interna](https://i.imgur.com/1lqVzri.png)
+
+A página interna apresenta todas as informações relevantes sobre uma proposição legislativa, permitindo consulta pública, verificação da tramitação e ferramentas de participação cidadã.
+
+🏛️ **Informações da Proposição**
+
+- Identificação
+- Status
+
+**Descrição:**
+Resumo da ementa
+
+🤖 **Ferramentas Disponíveis**
+
+-  Resumir com IA – gera automaticamente um resumo da proposição.
+
+-  Gerar pressão política – cria mensagens para engajamento público.
+
+-  Enviar e-mail aos autores – disponibiliza um texto padrão de cobrança.
+- 
+👤 **Informações de Contato**
+
+**Autores**
+
+-  Origem
+
+-  E-mail
+
+**Relator**
+
+-  E-mail
+
+-  Telefone
+
+📌 **Tramitação Atual**
+
+-  Situação
+
+-  Despacho
+
+-  Órgão atual
+
+-  Regime
+
+  📑 **Documentos**
+
+- Ver inteiro teor
+
+- Ficha de tramitação
+
 ### 6. 📰 Diário Oficial da União
 
 ![Diário Oficial](https://i.imgur.com/O2X82zb.png)

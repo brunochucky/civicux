@@ -6,6 +6,8 @@
 
 **Plataforma de Engajamento Cívico com Gamificação**
 
+***DDaaS (Defense Democracy as a Service)***
+
 Uma Progressive Web App (PWA) que transforma cidadãos em auditores ativos, permitindo fiscalização urbana, acompanhamento legislativo e participação democrática através de gamificação e inteligência artificial.
 
 [📸 Ver Screenshots](https://imgur.com/a/MPiVDnY) | [🌐 Demo ao Vivo](https://civicux.vercel.app/) | [📖 Documentação](#funcionalidades)
@@ -16,17 +18,17 @@ Uma Progressive Web App (PWA) que transforma cidadãos em auditores ativos, perm
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
+- [Sobre o Projeto](#-sobre-o-projeto)
 - [Demo ao Vivo](#-demo-ao-vivo)
 - [Funcionalidades](#funcionalidades)
 - [Implementação de Inteligência Artificial](#-implementação-de-inteligência-artificial)
 - [Fontes de Dados Abertos](#-fontes-de-dados-abertos)
-- [Tecnologias](#tecnologias)
+- [Tecnologias](#-tecnologias)
 - [Instalação Local](#instalação-local)
 - [Deploy no Vercel](#deploy-no-vercel)
-- [Variáveis de Ambiente](#variáveis-de-ambiente)
+- [Variáveis de Ambiente](#variaveis-de-ambiente)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Licença](#licença)
+- [Licença](#licenca)
 - [Contribuindo](#contribuindo)
 
 ---

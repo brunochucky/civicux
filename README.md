@@ -25,11 +25,11 @@ Uma Progressive Web App (PWA) que transforma cidadãos em auditores ativos, perm
 - [Fontes de Dados Abertos](#-fontes-de-dados-abertos)
 - [Tecnologias](#%EF%B8%8F-tecnologias)
 - [Instalação Local](#-instalação-local)
-- [Deploy no Vercel](#deploy-no-vercel)
-- [Variáveis de Ambiente](#variaveis-de-ambiente)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Licença](#licenca)
-- [Contribuindo](#contribuindo)
+- [Deploy no Vercel](#%EF%B8%8F-deploy-no-vercel)
+- [Variáveis de Ambiente](#-variáveis-de-ambiente)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Licença](#-licença)
+- [Contribuindo](#-contribuindo)
 
 ---
 

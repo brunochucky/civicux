@@ -1,4 +1,4 @@
-# 🏛️ Cidadão Auditor
+# 🏛️ CIVICUX
 
 <div align="center">
 
@@ -35,7 +35,7 @@ Uma Progressive Web App (PWA) que transforma cidadãos em auditores ativos, perm
 
 ## 🎯 Sobre o Projeto
 
-O **Cidadão Auditor** é uma plataforma inovadora que democratiza o acesso à fiscalização pública e ao acompanhamento legislativo. Através de gamificação e IA, transformamos a participação cívica em uma experiência engajadora e recompensadora.
+O **CIVICUX** é uma plataforma inovadora que democratiza o acesso à fiscalização pública e ao acompanhamento legislativo. Através de gamificação e IA, transformamos a participação cívica em uma experiência engajadora e recompensadora.
 
 ### Problema que Resolvemos
 
@@ -74,7 +74,7 @@ Senha: senha123
 
 ## 🤖 Implementação de Inteligência Artificial
 
-A IA é o coração do Cidadão Auditor, tornando a participação cívica mais inteligente e acessível.
+A IA é o coração do Civicux, tornando a participação cívica mais inteligente e acessível.
 
 ### Groq (Llama 3)
 
@@ -174,7 +174,7 @@ contra mulheres, de 3 meses a 3 anos para 6 meses a 5 anos de detenção."
 
 ## 📊 Fontes de Dados Abertos
 
-O Cidadão Auditor é construído sobre dados públicos e transparentes.
+O Civicux é construído sobre dados públicos e transparentes.
 
 ### 1. API Dados Abertos da Câmara dos Deputados
 

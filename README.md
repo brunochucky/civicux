@@ -372,39 +372,31 @@ Resumo da ementa
 🤖 **Ferramentas Disponíveis**
 
 -  Resumir com IA – gera automaticamente um resumo da proposição.
-
 -  Gerar pressão política – cria mensagens para engajamento público.
-
 -  Enviar e-mail aos autores – disponibiliza um texto padrão de cobrança.
-- 
+
 👤 **Informações de Contato**
 
 **Autores**
 
 -  Origem
-
 -  E-mail
 
 **Relator**
 
 -  E-mail
-
 -  Telefone
 
 📌 **Tramitação Atual**
 
 -  Situação
-
 -  Despacho
-
 -  Órgão atual
-
 -  Regime
 
-  📑 **Documentos**
+📑 **Documentos**
 
 - Ver inteiro teor
-
 - Ficha de tramitação
 
 ### 6. 📰 Diário Oficial da União

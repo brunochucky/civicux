@@ -10,7 +10,7 @@
 
 Uma Progressive Web App (PWA) que transforma cidadãos em auditores ativos, permitindo fiscalização urbana, acompanhamento legislativo e participação democrática através de gamificação e inteligência artificial.
 
-[📸 Ver Screenshots](https://imgur.com/a/MPiVDnY) | [🌐 Demo ao Vivo](https://civicux.vercel.app/) | [📖 Documentação](#funcionalidades)
+[📸 Ver Screenshots](https://imgur.com/a/MPiVDnY) | [🌐 Demo ao Vivo](https://civicux.vercel.app/) | [📖 Documentação](#-funcionalidades)
 
 </div>
 
@@ -714,6 +714,6 @@ Contribuições são bem-vindas! Para contribuir:
 
 **Feito com ❤️ pela comunidade Civicux**
 
-[⬆ Voltar ao topo](#-cidadão-auditor)
+[⬆ Voltar ao topo](#%EF%B8%8F-civicux)
 
 </div>
